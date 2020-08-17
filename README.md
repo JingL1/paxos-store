@@ -57,7 +57,8 @@ Terminal 5: java -classpath paxos_store.jar Server5
 
 - Run Client in the 6th terminal, you could randomly select a server from `Server1 to Server5` as the second argument
 
-```Terminal 6: java -classpath paxos_store.jar Client Server3
+```
+Terminal 6: java -classpath paxos_store.jar Client Server3
 ```
 
 - Waiting for testing results, and then type in commands manually for further testing.
