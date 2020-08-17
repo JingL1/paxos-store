@@ -47,15 +47,18 @@ III. Testing
 
 - Run 5 servers in 5 different terminal:
 
+```
 Terminal 1: java -classpath paxos_store.jar Server1
 Terminal 2: java -classpath paxos_store.jar Server2
 Terminal 3: java -classpath paxos_store.jar Server3
 Terminal 4: java -classpath paxos_store.jar Server4
 Terminal 5: java -classpath paxos_store.jar Server5
+```
 
 - Run Client in the 6th terminal, you could randomly select a server from `Server1 to Server5` as the second argument
 
-Terminal 6: java -classpath paxos_store.jar Client Server3
+```Terminal 6: java -classpath paxos_store.jar Client Server3
+```
 
 - Waiting for testing results, and then type in commands manually for further testing.
 
